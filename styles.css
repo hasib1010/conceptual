@@ -1,0 +1,35 @@
+*{
+    padding: 0px;margin: 0px;
+}
+.head{
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.menus{
+    display: flex;
+    align-items: center;
+    
+}
+.item{
+    margin: 10px;
+    padding: 7px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.item:hover{
+    color: rgb(224, 48, 4);
+}
+/* banner start */
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    height: 100vh;
+    background-image: url("/images/background.png"), linear-gradient(45deg, rgb(29, 28, 28), rgb(8, 8, 7));
+}
