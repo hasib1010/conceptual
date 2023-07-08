@@ -48,7 +48,19 @@
     background-color: red;
     color: white;
     font-weight: bold;
+    margin-top: 10px;
 }
 .btn:hover{
     background-color: blue;
+}
+.about{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.about-us{
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 10px;
 }
