@@ -64,3 +64,28 @@
     padding-top: 10px;
     margin-bottom: 10px;
 }
+.icon{
+    width: 70px;
+}
+.card{
+    height: 250px;width: 230px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    box-shadow: 10Px 10px 25px gray;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 30px;
+    background: rgb(33, 31, 31);
+    padding: 20px;
+}
+.card-btn{
+        background-color: grey;
+    margin-top: 10px;
+}
+.card, h2, p{
+    margin-top:5px;
+}
