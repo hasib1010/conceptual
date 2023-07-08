@@ -33,3 +33,22 @@
     height: 100vh;
     background-image: url("/images/background.png"), linear-gradient(45deg, rgb(29, 28, 28), rgb(8, 8, 7));
 }
+.headig{
+    font-size: 55px;
+    font-weight: bolder;
+}
+.description{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    padding: 15px;
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: blue;
+}
